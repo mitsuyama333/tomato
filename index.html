@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tomato 2025</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+        .container-tomato{
+            max-width:960px;
+        }
+        body{
+        font-family: "Noto Sans JP", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        background-color:#fff left top fixed;
+        background-size: cover;
+        list-style: none
+        }
+        .tomato-mainColor{
+            background-color: #BF1A20;
+            color:#fff
+        }
+        .tomato-subColor{
+            background-color: #FFC107;
+            color:#fff
+        }
+        #hero{
+            margin-top: 80px;
+        }
+        .hero-box{
+          position: relative;
+        }
+        .hero-btn-box{
+          position: absolute;
+          bottom:40px;
+          right:40px;
+        }
+        #rule ul{
+            list-style: none;
+            padding-left:0;
+        }
+        
+    </style>
+</head>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  
+  <header>
+    <!-- <div class="container container-tomato p-2 text-left tomato-mainColor">
+        <a href="#"><img src="images/Logo.png" alt=""></a>
+    </div> -->
+    <nav class="navbar container container-tomato p-2 text-left tomato-mainColor fixed-top">
+  <div class="container-fluid navbar-brand-logo">
+    <a class="navbar-brand" href="#">
+      <img src="images/Logo.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">濃密トマトジャム</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#rule">購入</a>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+  </header>
+  <main>
+    <section id="hero">
+        <div class="container container-tomato p-0 text-center hero-box">
+        <img src="images/mainVisual.png" alt=""class="img-fluid">
+        <div class="hero-btn-box">
+          <a class="nav-link" href="#rule">
+          <button type="button" class="btn btn-warning btn-lg">購入する</button>
+        </a>
+      </div>
+        </div>
+        <!-- /mainVisual（この閉じタブはmainVisualを閉じている） -->
+    <div class="container container-tomato text-center tomato-mainColor">
+        <div class="row p-4">
+            <div class="col">
+                <img src="images/btn1.png" alt="最高糖度15.3度"class="img-fluid">
+                <p class="p-2">最高糖度15.3度</p>
+            </div>
+            <div class="col">
+                <img src="images/btn2.png" alt="無農薬"class="img-fluid">
+                <p class="p-2">無農薬</p>
+            </div>
+            <div class="col">
+                <img src="images/btn3.png" alt="生産者の顔"class="img-fluid">
+                <p class="p-2">高栄養価</p>
+            </div>
+        </div>
+    </div>
+    <div class="container container-tomato p-0 text-center">
+        <img src="images/main2.png" alt=""class="img-fluid">
+    </div>
+    </section>
+    <section id="flow">
+        <div class="container container-tomato p-5 bg-white">
+            <h2 class="text-center">
+                三山ファームの濃密トマトジャム  
+            </h2>
+            <br>
+            <h4 class="container container-tomato bg-white text-center">
+                トマトの甘さと旨みが凝縮された、最高糖度15.3度の贅沢な味わい
+            </h4>
+            <br>
+            <p>
+                三山ファーム自慢のトマトジャムは、無農薬で丹精込めて育てたトマトだけを使用。果実本来の甘みと自然な旨味が詰まっています。一口食べるだけでトマトの豊かな風味が広がる、特別な一品です。
+            </p>
+            <p>
+                三山ファームの情熱が詰まったトマトジャム、どうぞお試しください。
+            </p>
+        </div>
+    </section>
+    <section id="how">
+        <div class="container container-tomato p-5 text-center tomato-subColor">
+        <h2 class="pb-5 text-center">おすすめの使い方</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/osusume1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">トーストに</h5>
+                  <p class="card-text p-2">トーストにひと塗りで<br>贅沢な味わいをプラス</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/osusume2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">チーズと一緒に </h5>
+                  <p class="card-text p-2">ヨーグルトやチーズ<br>との相性も抜群</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/osusume3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ソースとして </h5>
+                  <p class="card-text p-2">料理のソースや<br>隠し味としても活躍</p>
+                </div>
+              </div> 
+            </div>
+          </div>
+        <!-- <div class="row g-3">
+            <div class="col-sm-12 col-md-4">
+                <img src="images/osusume1.png" alt="" class="img-fluid rounded-4">
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <img src="images/osusume2.png" alt="" class="img-fluid rounded-4">
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <img src="images/osusume3.png" alt="" class="img-fluid rounded-4">
+            </div>
+        </div> -->
+        </div>
+    </section>
+    <section id="item">
+            <div class="container container-tomato p-5 bg-white">
+                <h2 class="text-center">
+                    地域ブランドの誇り  
+                </h2>
+                <br>
+                <p>「くまもとの赤」として知られるこのトマトは、甘みと酸味のバランスが良く、食感も優れているため、多くの人々に愛されています。<br>
+                    地元の農家が丁寧に育てた新鮮なトマトは、地域ブランドとしての価値も高く、熊本の特産品として全国的に認知されています。</p>
+            </div>
+        </div>
+        <div class="container container-tomato p-0 text-center">
+            <h2 class="text-center p-0">
+                店頭チラシ
+            </h2>
+            <img src="images/tomatothirashi.jpg" alt="" class="img-fluid pb-2">
+        </div>
+    </section>
+    <section id="rule">
+        <div class="container container-tomato p-5 bg-warning-subtle">
+                <h2 class="text-left">購入手続き</h2><br>
+                <form class="mb-5" method="POST">
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="username" class="form-label">お名前</label>
+                    <input type="username" class="form-control" id="username" name="username" required>
+                  </div>
+                  <p class="mb-3">商品の個数を選択してください。</p>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">商品</th>
+                        <th scope="col">単価</th>
+                        <th scope="col">個数</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>濃蜜トマトジャム</td>
+                        <td>¥880（税込み）</td>
+                        <td>
+                          <select class="form-select" name="computer">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                          </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>濃蜜トマトジャム(5個セット)
+                        </td>
+                        <td>¥3800（税込み）</td>
+                        <td>
+                          <select class="form-select" name="computer">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                          </select>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>
+                  <ul>
+                    <li>【内容量】110g</li>
+                    <li>【賞味期限】ラベル記載（約1年）</li>
+                    <li>※1歳未満の乳児には与えないでください。</li>
+                    <li>※開封後は冷蔵保存し、なるべく早めにお召し上がりください。</li>
+                    <li>※架空のサイトのため購入できません。</li>
+                    </ul>
+                </div>
+                  <button type="submit" class="btn btn-outline-primary" name="confirm" value="true">確認画面へ</button>
+                </form>
+        </div>
+    </section>
+    <section id="sns">
+        <div class="container container-tomato text-center p-5 bg-white">
+        <p>気になったらシェアしよう</p>
+        <div>
+            <i class="fa-brands fa-x-twitter fa-2xl mx-2" style="color: #ff4242;"></i>
+            <i class="fa-brands fa-facebook fa-2xl mx-2" style="color: #ff4242;"></i>
+            <i class="fa-brands fa-instagram fa-2xl mx-2" style="color: #ff4242;"></i>
+            <i class="fa-brands fa-tiktok fa-2xl mx-2" style="color: #ff4242;"></i>
+        </div>
+        </div>
+    </section>
+  </main>
+</body>
+  <footer>
+    <div class="container container-tomato p-2 text-center tomato-mainColor">
+<small>&copy;2025　MITSUYAMA　FARM</small>
+  </div>
+</footer>
+
+</html>
